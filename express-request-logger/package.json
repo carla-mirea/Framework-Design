@@ -1,0 +1,26 @@
+{
+  "name": "express-request-logger",
+  "version": "1.0.0",
+  "description": "A lightweight, configurable HTTP request logger middleware for Express.js",
+  "main": "src/index.js",
+  "scripts": {
+    "demo": "node demo/app.js",
+    "test": "node test/middleware.test.js"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "logger",
+    "http",
+    "request",
+    "monitoring"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "express": ">=4.0.0"
+  },
+  "devDependencies": {
+    "express": "^4.22.1"
+  }
+}
